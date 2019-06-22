@@ -1,0 +1,28 @@
+/* remove default margin and padding from body */
+body {
+    font-family:"helvetica neue","helvetica",sans-serif;
+    font-size:0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.container svg {
+			
+}
+
+/* no axis line */
+.axis path {
+    fill: none;
+}
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.infohead ul {
+    margin:0;
+    padding:1.0em;
+    list-style:none;
+}
+
