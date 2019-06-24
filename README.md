@@ -12,7 +12,7 @@ The product consists of three dashboards that visualise the Airlines data in the
 
 These datasets were cleaned using Python; imported into a MySQL database; and then converted into interactive dashboards using HTML, CSS, and JavaScript.
 
-![airlines_project](static/images/workflow.png)
+![airlines_project](https://github.com/contactgokul/airports-flights-analysis/tree/master/static/images/workflow.png)
 
 ## ETL Process
 
@@ -70,20 +70,20 @@ Final App deployed through Heroku in https://airports-flights-analysis.herokuapp
 
 The landing page of the application has three buttons which direct to three individual dashboards.
 
-![Airport Locations](static/data/airport_locations.png)
-
 * Airport visualization:
 The result shows location of airports for each state in an aggregated form. User can Zoom in to find the info/details of each individual airport, # of outbound fights.
 
-![Airport Routes](static/data/airport_routes.png)
+![Airport Locations](https://github.com/contactgokul/airports-flights-analysis/tree/master/static/data/airport_locations.png)
 
 * Airport To Airport Route:
 The result shows routes from one airport to connecting airports along with the origin airport details.
 
-![Bar Race Chart](static/data/bar_race_Chart.png)
+![Airport Routes](https://github.com/contactgokul/airports-flights-analysis/tree/master/static/data/airport_routes.png)
 
 * Airlines Bar Race Chart:
 The result indicated that initially American Airlines (AA) had flown maximum flights, but, over time Southwest (WN) took over to be the #1 airlines to fly max flights
+
+![Bar Race Chart](https://github.com/contactgokul/airports-flights-analysis/tree/master/static/data/bar_race_Chart.png)
 	
 ### Author
 
