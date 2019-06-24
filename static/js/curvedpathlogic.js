@@ -11,28 +11,6 @@ var map = L.map("map").setView([39.8283, -98.5795], 5);
    accessToken: API_KEY
  }).addTo(map);
 
-// L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
-	// attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-	// maxZoom: 18,
-	// id: "mapbox.streets",
-	// accessToken: API_KEY
-// }).addTo(map);
-
-// L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
-	// attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-	// maxZoom: 18,
-	// id: "mapbox.streets",
-	// accessToken: API_KEY
-// }).addTo(map);
-  
-// satellite background
-// L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
-	// attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-	// maxZoom: 18,
-	// id: "mapbox.streets",
-	// accessToken: API_KEY
-// }).addTo(map);
-
 //Read the first Json file containing Airport code and coordinates
 d3.json("static/data/usAirports.json", function(response1) {
     for (var i = 0; i < response1.length; i++) {
@@ -113,29 +91,9 @@ d3.json("static/data/usAirports.json", function(response1) {
 
 									var pathOptions = {
 									color: '#111111',
-									//color: 'rgba(255,255,255,0.5)',
 									weight: 2
 									}
 									
-									// var pathOptions = {
-	// color: 'rgba(255,255,255,0.5)',
-	// weight: 2
-// }
-
-									 // if (typeof document.getElementById('LEAFLET_MAP').animate === "function") { 
-	 // var durationBase = 2000;
-   	 // var duration = Math.sqrt(Math.log(r)) * durationBase;
-	// // // Scales the animation duration so that it's related to the line length
-	// // // (but such that the longest and shortest lines' durations are not too different).
-   	// // // You may want to use a different scaling factor.
-  	 // pathOptions.animate = {
-		 // duration: duration,
-		 // iterations: Infinity,
-		 // easing: 'ease-in-out',
-		 // direction: 'alternate'
-	 // }
- // }
-
 									var curvedPath = L.curve(
 									  [
 										'M', latlng1,
