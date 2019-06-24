@@ -85,6 +85,6 @@ The result shows routes from one airport to connecting airports along with the o
 ![Airport Routes](static/images/airport_routes.gif)
 
 * Airlines Bar Race Chart:
-The result indicated that initially American Airlines (AA) had flown maximum flights, but, over time Southwest (WN) took over to be the #1 airlines to fly max flights
+The result indicated that Delta Airlines (DL) had flown maximum flights
 
 ![Bar Race Chart](static/images/bar_race_Chart.gif)
