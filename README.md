@@ -1,5 +1,9 @@
 # Airline Information & Statistics
 
+### Author
+
+Bharat, Gokul and Ritesh@2019
+
 App deployed through Heroku in https://airports-flights-analysis.herokuapp.com/
 
 ![airlines_project](static/images/airlines_project.png)
@@ -84,7 +88,3 @@ The result shows routes from one airport to connecting airports along with the o
 The result indicated that initially American Airlines (AA) had flown maximum flights, but, over time Southwest (WN) took over to be the #1 airlines to fly max flights
 
 ![Bar Race Chart](static/images/bar_race_Chart.gif)
-	
-### Author
-
-Bharat, Gokul and Ritesh@2019
