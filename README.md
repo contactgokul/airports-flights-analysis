@@ -73,17 +73,17 @@ The landing page of the application has three buttons which direct to three indi
 * Airport visualization:
 The result shows location of airports for each state in an aggregated form. User can Zoom in to find the info/details of each individual airport, # of outbound fights.
 
-![Airport Locations](static/images/airport_locations.PNG)
+![Airport Locations](static/images/airport_locations.gif)
 
 * Airport To Airport Route:
 The result shows routes from one airport to connecting airports along with the origin airport details.
 
-![Airport Routes](static/images/airport_routes.PNG)
+![Airport Routes](static/images/airport_routes.gif)
 
 * Airlines Bar Race Chart:
 The result indicated that initially American Airlines (AA) had flown maximum flights, but, over time Southwest (WN) took over to be the #1 airlines to fly max flights
 
-![Bar Race Chart](static/images/bar_race_Chart.PNG)
+![Bar Race Chart](static/images/bar_race_Chart.gif)
 	
 ### Author
 
